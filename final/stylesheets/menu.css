@@ -1,0 +1,65 @@
+@charset "utf-8";
+/* CSS Document */
+
+#sddm ul
+{	
+	margin-top:2px;
+	padding: 0;	
+	list-style-type: none;
+}
+
+#sddm li
+{	margin: 0px;
+	padding: 0;
+	list-style: none;
+	float: left;
+	font: bold 12px arial;
+	height:25px;
+}
+
+
+#sddm li a
+{	display: block;
+	margin: 0 1px 0 0;
+	padding: 8px 10px;
+	text-align:center;
+	color: #FFF;
+	text-align: center;
+	text-decoration: none;
+	height:20px;
+	margin-left:20px;
+}
+
+#sddm li a:hover{	
+	background: #49A3FF;
+	height:15px;
+	margin-top:1px;
+}
+
+#sddm div
+{	position: relative;
+	visibility: hidden;
+	margin: 0;
+	padding: 0;
+	background: #EAEBD8;
+	border: 1px solid #5970B2;
+	margin-left:20px;
+}
+
+	#sddm div a
+	{	position: relative;
+		display: block;
+		margin: 0;
+		padding: 5px 10px;
+		width: auto;
+		white-space: nowrap;
+		text-align: left;
+		text-decoration: none;
+		background-color:rgb(239, 243, 254);
+		color: #2875DE;
+		font: 11px arial}
+
+	#sddm div a:hover
+	{	background: #49A3FF;
+		color: #FFF;
+	}
